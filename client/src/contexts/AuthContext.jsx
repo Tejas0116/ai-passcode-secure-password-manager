@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
   }
 
   // Base URL for API requests
-  axios.defaults.baseURL = 'http://localhost:5000';
+  axios.defaults.baseURL = 'https://ai-passcode-secure-password-manager.onrender.com';
 
   useEffect(() => {
     const fetchUser = async () => {
